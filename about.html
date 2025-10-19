@@ -1,46 +1,112 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ข้อมูลส่วนตัว - กิตติศักดิ์ บัวบรรจง</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">หน้าแรก</a></li>
-                <li><a href="about.html" class="active">ข้อมูลส่วนตัว</a></li>
-                <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> หน้าแรก</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-user"></i> ข้อมูลส่วนตัว</a></li>
+                <li><a href="contact.html"><i class="fas fa-address-book"></i> ข้อมูลติดต่อ</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
+
         <section>
-            <h2>ที่อยู่</h2>
+            <h2><i class="fas fa-university"></i> ประวัติการศึกษา</h2>
+            <ul class="info-list">
+                <li><strong>2025 - ปัจจุบัน:</strong> ปริญญาตรี, มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ
+                    (สาขาเทคโนโลยีสารสนเทศ)</li>
+                <li><strong>2023 - 2024:</strong> จบการศึกษาระดับ ปวส. จากวิทยาลัยเทคนิคชลบุรี
+                    (สาขาวิชาเทคโนโลยีสารสนเทศ)</li>
+                <li><strong>2020 - 2022:</strong> จบการศึกษาระดับ ปวช. จากวิทยาลัยเทคนิคชลบุรี
+                    (สาขาวิชาเทคโนโลยีสารสนเทศ)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-code"></i> ทักษะ (Skills)</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;" data-level="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;" data-level="80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Go (Golang)</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;" data-level="60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>PHP</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 50%;" data-level="50%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>C#</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;" data-level="60%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;" data-level="60%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-map-marker-alt"></i> ที่อยู่</h2>
             <p>16 หมู่ 1 ถนนเทศบาล 2</p>
             <p>ต.พลิ้ว อ.แหลมสิงห์ จ.จันทบุรี 22190</p>
             <p>
-                <a href="http://googleusercontent.com/maps.google.com/3" target="_blank">
-                    ดูบนแผนที่
+                <a href="http://googleusercontent.com/maps.google.com/4" target="_blank">
+                    <i class="fas fa-map"></i> ดูบนแผนที่
                 </a>
             </p>
         </section>
 
         <section>
-            <h2>ข้อมูลสุขภาพ</h2>
+            <h2><i class="fas fa-heartbeat"></i> ข้อมูลสุขภาพ</h2>
             <ul class="info-list">
                 <li><strong>โรคประจำตัว:</strong> ไม่มี</li>
                 <li><strong>แพ้ยา/แพ้อาหาร:</strong> ไม่มี</li>
             </ul>
         </section>
+
     </main>
 
     <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/kittisak.buabanchong.2024?locale=th_TH" target="_blank"><i
+                    class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://www.instagram.com/bj_kittisak/" target="_blank"><i class="fab fa-instagram"></i>
+                Instagram</a>
+        </div>
         <p>© 2025 Kittisak Buabanjong</p>
     </footer>
 </body>
+
 </html>
